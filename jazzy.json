@@ -1,0 +1,11 @@
+{
+  "xcodebuild_arguments": [
+  	"-project", "sources/ProcedureKit/ProcedureKit.xcodeproj", 
+  	"-scheme", "ProcedureKit"],
+  "author": "ProcedureKit Contributors",
+  "author_url": "https://github.com/ProcedureKit",
+  "module": "ProcedureKit",
+  "readme": "README.md",
+  "theme": "fullwidth",
+  "documentation": "Guides/*.md"
+}
