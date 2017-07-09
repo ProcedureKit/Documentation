@@ -6,8 +6,8 @@ set -euo pipefail
 
 echo "--- :git: Updating submodule"
 
-echo "cd submodules/ProcedureKit"
-cd "submodules/ProcedureKit"
+echo "cd sources/ProcedureKit"
+cd "sources/ProcedureKit"
 
 echo "git fetch origin"
 git fetch origin
