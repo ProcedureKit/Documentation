@@ -1,0 +1,4 @@
+steps:
+  -
+    name: "Generate Documents"
+    command: "source /usr/local/opt/chruby/share/chruby/chruby.sh && chruby ruby && .ci/build-docs"
