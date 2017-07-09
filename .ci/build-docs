@@ -24,3 +24,5 @@ bundle install --quiet
 echo "--- Jazzy"
 bundle exec jazzy --config jazzy.json
 
+echo "--- Upload"
+buildkite-agent artifact upload "docs/**/*" s3://procedure.kit.run/development
