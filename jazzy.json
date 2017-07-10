@@ -10,13 +10,37 @@
   "documentation": "sources/ProcedureKit/Guides/**/*.md",
   
   "custom_categories": [{
-	"name": "Programming Guide",
+	"name": "Getting Started",
 	"children": [
 		"What is ProcedureKit?",
 		"Installing",
 		"MyFirstProcedure",
 		"Scheduling",
 		"Dependencies"
-	]  
+	]}, {
+	"name": "Migrating",
+	"children": [
+	    "From NSOperation",
+	    "From WWDC2015",
+	    "From PSOperations",
+	    "From ProcedureKit v3",
+	    "From ProcedureKit v4"
+	]}, {
+	"name": "Core Features",
+	"children": [
+	    "Observers",
+	    "Conditions",
+	    "Cancellation",
+	    "Mutual Exclusivity",
+	    "Groups",
+	    "Result Injection"
+	]}, {
+	"name": "Advanced Features",
+	"children": [
+	    "Capabilities",
+	    "Logging",
+	    "Advanced Groups",
+	    "Advanced Result Injection"
+	]}
   }]
 }
