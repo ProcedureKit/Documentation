@@ -25,5 +25,5 @@ echo "--- Jazzy"
 bundle exec jazzy --config jazzy.json
 
 echo "--- :aws: Upload"
-cd "docs/"
-buildkite-agent artifact upload "**/*" "s3://procedure.kit.run/$PROCEDUREKIT_BRANCH"
+echo 'aws s3 cp --recursive docs "s3://procedure.kit.run/$PROCEDUREKIT_BRANCH"'
+aws s3 cp --recursive docs "s3://procedure.kit.run/$PROCEDUREKIT_BRANCH"

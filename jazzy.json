@@ -7,5 +7,16 @@
   "module": "ProcedureKit",
   "readme": "README.md",
   "theme": "fullwidth",
-  "documentation": "Guides/*.md"
+  "documentation": "sources/ProcedureKit/Guides/**/*.md",
+  
+  "custom_categories": [{
+	"name": "Programming Guide",
+	"children": [
+		"What is ProcedureKit?",
+		"Installing",
+		"MyFirstProcedure",
+		"Scheduling",
+		"Dependencies"
+	]  
+  }]
 }
