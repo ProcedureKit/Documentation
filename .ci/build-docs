@@ -26,4 +26,4 @@ bundle exec jazzy --config jazzy.json
 
 echo "--- :aws: Upload"
 cd "docs/"
-buildkite-agent artifact upload "**/*" s3://procedure.kit.run/development
+buildkite-agent artifact upload "**/*" "s3://procedure.kit.run/$PROCEDUREKIT_BRANCH"
