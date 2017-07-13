@@ -26,8 +26,8 @@ echo "--- Jazzy ProcedureKit"
 echo "cd sources/ProcedureKit"
 cd "sources/ProcedureKit"
 
-echo "bundle exec jazzy --config jazzy.json"
-bundle exec jazzy --config jazzy.json
+echo "bundle exec jazzy --config .jazzy.json"
+bundle exec jazzy --config .jazzy.json
 
 echo "--- :aws: Upload"
 echo 'aws s3 cp --recursive docs "s3://procedure.kit.run/$PROCEDUREKIT_BRANCH"'
