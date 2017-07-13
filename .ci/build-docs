@@ -21,7 +21,12 @@ cd "../.."
 echo "bundle install --quiet"
 bundle install --quiet
 
-echo "--- Jazzy"
+echo "--- Jazzy ProcedureKit"
+
+echo "cd sources/ProcedureKit"
+cd "sources/ProcedureKit"
+
+echo "bundle exec jazzy --config jazzy.json"
 bundle exec jazzy --config jazzy.json
 
 echo "--- :aws: Upload"
